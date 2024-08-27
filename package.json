@@ -1,0 +1,24 @@
+{
+	"name": "gambl",
+	"version": "0.1.0",
+	"description": "gambl or bish?",
+	"main": "index.js",
+	"author": "Eqilia Luminé",
+	"license": "EUPL-1.2",
+	"private": false,
+	"scripts": {
+		"package": " ./scripts/package.sh"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.24.8",
+		"@babel/core": "^7.25.2",
+		"@babel/preset-env": "^7.25.3",
+		"esbuild": "^0.23.1",
+		"html-minifier": "^4.0.0"
+	},
+	"dependencies": {
+		"core-js": "^3.38.0",
+		"css-minify": "^2.0.0",
+		"xorshift": "^1.2.0"
+	}
+}
